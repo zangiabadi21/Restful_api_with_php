@@ -1,0 +1,72 @@
+
+<html lang="fa"  dir="rtl">
+<head>
+	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>	
+	{
+					background:#c82c74;
+					margin:25px auto;
+					font-family: b nazanin;
+					font-size: 20px;
+				}
+			table, th, td 
+				{
+					border: 1px solid black;
+					border-collapse: collapse;
+				}
+			th, td 
+				{
+					padding: 15px;
+				}
+			caption
+			{
+				margin-bottom:15px;
+				color:#c82c74;
+			}</style>	
+</head>
+	
+<form method="post" action="manager.php" enctype="multipart/form-data">
+	<table  width="650" align="center">
+						  
+		<caption ><b>اطلاعات مربوط به محصول را در این جدول اضافه کنید</b></caption >
+					  
+		<tr>
+			<th ><b>ویژگی های محصول</b></th >
+			<th ><b>مقدار ورودی برای هر کدام از ویژگی ها</b></th >
+		</tr>
+				<tr>
+			<td><b>کد  محصول</b></td>
+			<td><input type="text" name="code" size="70"  required>				
+			</td >	
+		<tr>
+			<td><b>نام محصول</b></td >
+			<td><input type="text" name="name" size="70" required></td >
+		</tr>
+ 
+		
+		</tr>		
+		<tr>
+			<td><b>قیمت محصول</b></td >
+			<td><input type="text" name="price" size="70" required></td >
+		</tr>
+ 
+					
+		<tr>
+			<td><b>تعداد محصول</b></td >
+			<td>
+			<input type="text" name="count"  size="70" required>
+			</td >
+		</tr>
+ 					
+		<tr>
+		<td></td>
+			<td align="center">	<input type="submit" name="submit" value="بارگذاری">&nbsp;
+				<input type="reset" name="reset" value="ریست کردن"></td >
+		</tr>
+ 
+	</table > 
+</form>
+ 
+ 
+</html>
